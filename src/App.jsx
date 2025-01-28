@@ -1,10 +1,14 @@
+import Hero from "./components/Hero/Hero";
+import Highlights from "./components/Highlights/Highlights";
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
-    <>
-      <div className="container mx-auto ">
-        <h1 className="text-zinc font-bold">Hello world!</h1>
-      </div>
-    </>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   );
 }
 
